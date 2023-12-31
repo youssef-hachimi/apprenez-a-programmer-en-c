@@ -22,6 +22,7 @@ int main() {
   printf("2. Mc Deluxe\n");
   printf("3. Mc Bacon=\n");
   printf("4. Big Mac\n");
+  printf("votre choix ?:\n");
   scanf("%d", &choixMenu);
   switch (choixMenu) {
   case 1:
