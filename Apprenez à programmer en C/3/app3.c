@@ -18,3 +18,13 @@ double aireRectangle(double largeur, double hauteur)
 {
     return largeur * hauteur;
 }
+/*
+file view.h has prototypes of file view.c
+#include <stdlib.h>
+#include <stdio.h>
+#include "view.h"
+
+void menu()
+{
+// ...
+*/
