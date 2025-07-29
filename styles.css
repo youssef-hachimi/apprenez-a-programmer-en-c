@@ -72,8 +72,10 @@ nav {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 1rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nav-menu li a {
@@ -351,9 +353,12 @@ footer {
     }
 
     .nav-menu {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
+        gap: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .nav-menu li a {
+        padding: 0.4rem 0.8rem;
     }
 
     .hero h2 {
